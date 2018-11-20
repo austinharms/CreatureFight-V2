@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TextBox
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TextBox\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=message\ size\ isBordered\ fg\ bg
+comment1.target=TextBox(java.lang.String,\ int,\ boolean,\ greenfoot.Color,\ greenfoot.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TextBox\r\n\ \r\n\ @param\ message\ is\ the\ text\ that\ will\ be\ displayed\ in\ the\ text\ box\r\n\ @param\ size\ is\ the\ text\ size\ that\ will\ be\ used\ for\ the\ text\ in\ the\ text\ box\r\n\ @param\ isBordered\ states\ whether\ the\ text\ box\ is\ bordered\ or\ not\r\n\ @param\ fg\ is\ the\ foreground\ color\ (or\ the\ color\ of\ the\ text)\ of\ the\ text\ box\r\n\ @param\ bg\ is\ the\ background\ color\ of\ the\ text\ box\r\n\ @return\ An\ object\ of\ type\ of\ TextBox\r\n
+comment2.params=
+comment2.target=void\ display()
+comment2.text=\r\n\ display\ will\ create\ the\ image\ for\ the\ TextBox\ based\ on\ the\ \r\n\ properties\ already\ defined\ by\ the\ variables\ inside\ the\ TextBox\r\n\ class\ so\ that\ it\ can\ be\ shown\ in\ the\ world\r\n\ \r\n\ @param\ There\ are\ no\ parameters\r\n\ @return\ Nothing\ is\ returned\r\n
+comment3.params=message
+comment3.target=void\ setText(java.lang.String)
+comment3.text=\r\n\ setText\ changes\ the\ text\ that\ is\ displayed\ inside\ the\ text\ box\r\n\ \r\n\ @param\ message\ is\ the\ new\ text\ that\ will\ be\ displayed\ in\ the\ text\ box\r\n\ @return\ Nothing\ is\ returned\r\n
+comment4.params=
+comment4.target=java.lang.String\ getText()
+comment4.text=\r\n\ TODO\ (30)\:\ Declare\ a\ public\ method\ called\ getText\ that\ returns\r\n\ \ \ \ \ \ \ \ \ \ \ a\ String\ and\ has\ no\ parameters\r\n\ \ \ \ \ \ \ \ \ \ \ \r\n\ TODO\ (31)\:\ Inside\ the\ getText\ method,\ simply\ return\ value\r\n
+numComments=5

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pikachu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Pikachu\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=w
+comment1.target=Pikachu(greenfoot.World)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pikachu\r\n\ \r\n\ @param\ w\ is\ a\ reference\ to\ the\ world\ that\ Pikachu\ gets\ added\ to\r\n\ @return\ An\ object\ of\ type\ Pikachu\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Pikachu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=idx
+comment3.target=void\ attack(int)
+comment3.text=\r\n\ TODO\ (64)\:\ Declare\ a\ public\ method\ called\ attack\ that\ does\ not\ return\r\n\ \ \ \ \ \ \ \ \ \ \ \ anything\ and\ has\ an\ integer\ parameter\ called\ idx\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ TODO\ (65)\:\ Declare\ a\ local\ CreatureWorld\ variable\ called\ playerWorld\ that\ stores\ a\ reference\ to\ the\ CreatureWorld\r\n\ \r\n\ TODO\ (66)\:\ Declare\ a\ local\ Creature\ variable\ called\ enemy\ that\ is\ initialized\ to\ player\ one's\ creature\r\n\ \r\n\ TODO\ (67)\:\ Declare\ a\ local\ String\ variable\ called\ enemyType\ that\ is\ initialized\ to\ the\ enemy's\ type\r\n\ \r\n\ TODO\ (68)\:\ If\ the\ idx\ parameter\ is\ equal\ to\ 0...\r\n\ \r\n\ \ \ \ \ \ TODO\ (69)\:\ The\ user\ has\ chosen\ Tackle,\ so\ add\ -30\ points\ of\ health\ to\ the\ enemy's\ health\ bar\r\n\ \ \ \ \ \ \r\n\ TODO\ (70)\:\ Otherwise...\r\n\ \r\n\ \ \ \ \ \ TODO\ (71)\:\ The\ user\ has\ chosen\ Thunderbolt,\ so\ add\ -65\ points\ of\ health\ to\ the\ enemy's\ health\ bar\r\n\ \ \ \ \ \ \r\n\ TODO\ (72)\:\ Set\ the\ turn\ number\ to\ player\ one's\ turn\r\n
+numComments=4
