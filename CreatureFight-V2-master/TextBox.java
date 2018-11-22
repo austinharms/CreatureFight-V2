@@ -12,9 +12,9 @@ public class TextBox extends Actor
     private int fontSize;
     private Color foreground;
     private Color background;
-    
+
     private boolean border = false;
-    
+
     /**
      * Constructor for objects of class TextBox
      * 
@@ -34,7 +34,7 @@ public class TextBox extends Actor
         border = isBordered;
         display();
     }
-    
+
     /**
      * display will create the image for the TextBox based on the 
      * properties already defined by the variables inside the TextBox
@@ -46,14 +46,14 @@ public class TextBox extends Actor
     private void display()
     {
         setImage( new GreenfootImage(value, fontSize, foreground, background) );
-        
+
         if(border == true)
         {
             getImage().setColor(Color.BLACK);
             getImage().drawRect(0, 0, getImage().getWidth() - 1, getImage().getHeight()-1);
         }
     }
-    
+
     /**
      * setText changes the text that is displayed inside the text box
      * 
@@ -63,18 +63,24 @@ public class TextBox extends Actor
     public void setText(String message)
     {
         value = message;
-       
+
         display();
     }
-    
+
     /**
      * TODO (30): Declare a public method called getText that returns
      *           a String and has no parameters
      *           
      * TODO (31): Inside the getText method, simply return value
      */
+    /**
+     * getText returns the current text displayed
+     * 
+     * @param there are no paramitors
+     * @return a string with the current text is returned
+     */
     public String getText()
     {
-      return value;  
+        return value;  
     }
 }

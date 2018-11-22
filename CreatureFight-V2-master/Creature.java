@@ -11,7 +11,7 @@ public class Creature extends Actor
     private HealthBar creatureBar;
     private int healthNumber;
     private int playerOwnership;
-    
+
     //TODO (45): Declare a String instance variable called type 
     private String type;
 
@@ -41,11 +41,11 @@ public class Creature extends Actor
         healthNumber = health;
         playerOwnership = whichPlayer;
         creatureBar = new HealthBar(healthNumber, healthNumber, 10);
-        
+
         //TODO (47): Initialize the type variable to the creatureType parameter
         type = creatureType;
     }
-    
+
     /**
      * act will complete actions that the Creature object should
      * accomplish while the scenario is running
@@ -57,13 +57,19 @@ public class Creature extends Actor
     {
         //empty method that will get overridden in subclasses
     }
-    
+
     /**
      * TODO (50): Declare a public method called attack that does not
      *            return anything and has an integer parameter called idx
      *            
      * TODO (51): Inside the method, put a comment stating that attack is an
      *            "empty method that will get overridden in subclasses
+     */
+    /**
+     * attack dose nothing 
+     * 
+     * @param int idx
+     * @return nothing is returned
      */
     public void attack(int idx)
     {
@@ -94,12 +100,18 @@ public class Creature extends Actor
     {
         return playerOwnership;
     }
-    
+
     /**
      * TODO (52): Declare a protected method called getType that returns a
      *            String and has no parameters
      * 
      * TODO (53): Inside the method, return the type of the Creature
+     */
+    /**
+     * getType returns what type the creature is
+     * 
+     * @param There are no parameters
+     * @return a string is returned that says what type the creature is
      */
     protected String getType()
     {

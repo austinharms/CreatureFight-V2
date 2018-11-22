@@ -37,7 +37,7 @@ public class Pikachu extends Creature
             Greenfoot.delay(30);
         }
     }  
-    
+
     /**
      * TODO (64): Declare a public method called attack that does not return
      *            anything and has an integer parameter called idx
@@ -58,7 +58,14 @@ public class Pikachu extends Creature
      *      
      * TODO (72): Set the turn number to player one's turn
      */
-        public void attack(int idx)
+    /**
+     * attack based on the idx paramiter takes away health from the enemy creature
+     * and makes it the next persons turn
+     * 
+     * @param an int used to change how mutch health is taken away
+     * @return nothing is returned
+     */
+    public void attack(int idx)
     {
         CreatureWorld playerWorld = (CreatureWorld) getWorld();
         Creature enemy = playerWorld.getPlayerOne();

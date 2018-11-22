@@ -170,7 +170,7 @@ public class CreatureWorld extends World
      * use in other parts of the code or for the user's information
      * 
      * @param There are no parameters
-     * @return Nothing is returned
+     * @return a playerTwoCreature is returned
      */
     public Creature getPlayerTwo()
     {
@@ -178,10 +178,10 @@ public class CreatureWorld extends World
     }
 
     /**
-     * TODO (26): Declare a public method called getTurnNumber that returns an
-     *            integer and has no parameters
-     *            
-     * TODO (27): Inside this method, return the turn number
+     * getTurnNumber returns the value turnNumber
+     * 
+     * @param There are no parameters
+     * @return returns turnNumber
      */
     public int getTurnNumber()
     {
@@ -189,10 +189,10 @@ public class CreatureWorld extends World
     }
 
     /**
-     * TODO (28): Declare a public method called setTurnNumber that does not
-     *            return anything and has an integer parameter called turn
-     *            
-     * TODO (29): Inside the method, set the turn number variable to the turn parameter
+     * setTurnNumber sets the value turnNumber the the setTurnNumber parameters
+     * 
+     * @param a int pramitor used to set turnNumber
+     * @return nothing is returned
      */
     public void setTurnNumber(int setTurnNumber)
     {

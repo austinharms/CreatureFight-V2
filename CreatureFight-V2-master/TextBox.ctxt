@@ -12,5 +12,5 @@ comment3.target=void\ setText(java.lang.String)
 comment3.text=\r\n\ setText\ changes\ the\ text\ that\ is\ displayed\ inside\ the\ text\ box\r\n\ \r\n\ @param\ message\ is\ the\ new\ text\ that\ will\ be\ displayed\ in\ the\ text\ box\r\n\ @return\ Nothing\ is\ returned\r\n
 comment4.params=
 comment4.target=java.lang.String\ getText()
-comment4.text=\r\n\ TODO\ (30)\:\ Declare\ a\ public\ method\ called\ getText\ that\ returns\r\n\ \ \ \ \ \ \ \ \ \ \ a\ String\ and\ has\ no\ parameters\r\n\ \ \ \ \ \ \ \ \ \ \ \r\n\ TODO\ (31)\:\ Inside\ the\ getText\ method,\ simply\ return\ value\r\n
+comment4.text=\r\n\ getText\ returns\ the\ current\ text\ displayed\r\n\ \r\n\ @param\ there\ are\ no\ paramitors\r\n\ @return\ a\ string\ with\ the\ current\ text\ is\ returned\r\n
 numComments=5

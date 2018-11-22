@@ -58,6 +58,13 @@ public class Charmander extends Creature
      *      
      * TODO (63): Set the turn number to player two's turn (Use the setTurnNumber method of playerWorld to change the turn number to 2)
      */
+    /**
+     * attack based on the idx paramiter takes away health from the enemy creature
+     * and makes it the next persons turn
+     * 
+     * @param an int used to change how mutch health is taken away
+     * @return nothing is returned
+     */
     public void attack(int idx)
     {
         CreatureWorld playerWorld = (CreatureWorld) getWorld();
@@ -73,6 +80,5 @@ public class Charmander extends Creature
         }
         playerWorld.setTurnNumber(2);
     }
-
 
 }
